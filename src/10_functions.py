@@ -22,4 +22,5 @@ def even_odd(num):
     else:
         print('Odd!')
 
-print(even_odd(2))
+# print(even_odd(2))
+even_odd(2)
