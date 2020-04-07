@@ -51,7 +51,7 @@ elif input_length == 2:
 
 # if there are two inputs
 elif input_length == 3: 
-  cal.prmonth(int(sys.argv[2]), int(sys.argv[1]))
+  calendar.prmonth(int(sys.argv[2]), int(sys.argv[1]))
 
 else: 
   print('Input must be formatted as: python 14_cal.py month year')
