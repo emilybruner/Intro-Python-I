@@ -42,3 +42,6 @@ bar_file.close()
 
 # check what was written
 bar_file = open('bar.txt', 'r')
+for i in bar_file:
+    print(i)
+bar_file.close()
