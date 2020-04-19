@@ -16,6 +16,8 @@ has the following keys:
 """
 
 waypoints = [
+
+
     {
         "lat": 43,
         "lon": -121,
@@ -53,5 +55,6 @@ print(waypoints[0])
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
 
+
 for i in waypoints:
-    print(i)
+    print(i['name'], i['lon'])
